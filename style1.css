@@ -1,0 +1,49 @@
+/* Mengatur gaya umum halaman */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #b392ac, #7f9bb5);
+}
+
+/* Kotak login utama */
+.login-container {
+    width: 300px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+/* Kolom input */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 93%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #2d3e50;
+    color: white;
+}
+
+/* Tombol login */
+.login-container button {
+    width: 100%;
+    padding: 13px;
+    background-color: #2d3e50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Warna tombol saat di-hover */
+.login-container button:hover {
+    background-color: #3c5063;
+}
