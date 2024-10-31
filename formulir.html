@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Data & Formulir</title>
+</head>
+<body>
+
+<main>
+    <!-- Formulir Pendaftaran -->
+    <section id="form">
+        <center><h2> Formulir Pendaftaran </h2></center>
+        
+        <form  style="width: 70%; margin: 0 auto;">
+            <fieldset>
+                <legend><b>Informasi Pribadi</b></legend>
+                <p>
+                    <label for="nama">Nama Lengkap:</label><br>
+                    <input type="text" id="nama" name="nama" required>
+                </p>
+                <p>
+                    <label for="password">Kata Sandi:</label><br>
+                    <input type="password" id="password" name="password" required>
+                </p>
+                <p>
+                    <label for="confirm-password">Kata Sandi:</label><br>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="umur">Umur:</label><br>
+                    <input type="number" id="umur" name="umur" min="1" max="100">
+                </p>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend><b>Detail Lainnya</b></legend>
+                
+                <p>
+                    <label>Jenis Kelamin:</label><br>
+                    <label><input type="radio" name="jenis_kelamin" value="perempuan"> Perempuan</label><br>
+                    <label><input type="radio" name="jenis_kelamin" value="laki-laki"> Laki-laki</label><br>
+                <p>
+                    <label>Hobi:</label><br>
+                    <label><input type="checkbox" name="hobi" value="membaca"> Membaca</label><br>
+                    <label><input type="checkbox" name="hobi" value="menonton"> Menonton</label><br>
+                    <label><input type="checkbox" name="hobi" value="healing"> Healing</label><br>
+                    <label><input type="checkbox" name="hobi" value="makan"> Makan</label><br>
+                </p>
+                <p>
+                    <label for="negara">Pilih Negara:</label><br>
+                    <select id="negara" name="negara">
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="Singapura">Singapura</option>
+                        <option value="Thailand">Thailand</option>
+                    </select>
+                </p>
+            </fieldset>
+            <br>
+
+
+            <p>
+                <input type="submit" value="Kirim Data">
+            </p>
+        </form>
+    </section>
+</main>
+
+<hr>
+<footer>
+    <center>
+        <p>&copy; 2024 Arsy</p>
+    </center>
+</footer>
+
+</body>
+</html>
